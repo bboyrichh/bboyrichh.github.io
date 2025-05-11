@@ -1,0 +1,154 @@
+header{
+    color: #000000;
+    font-weight: bold;
+    position:sticky;
+    top: 0;
+}
+nav{
+    background-color: #ffffff;
+    border-top: 1px solid;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.6em;
+    word-spacing: 2.5em;
+    letter-spacing: 0.25em;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    margin: 0;   
+}
+nav li{
+    padding: .5em 1em;
+    width: 100%;   
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link { 
+    color: #5C7FA3; 
+}
+nav a:visited { 
+    color: #344873; 
+}
+nav a:hover { 
+    color: #000000;
+    border: 1px solid;
+}
+main{
+    padding: 2em;
+    display: block;
+}
+#wrapper{
+
+    margin: 0 auto;
+}
+body{
+    background-color: #ffffff;
+    margin: 0 ;
+    
+}
+main{
+    background-color: #ffffff;
+
+}
+h1{
+    font-family: Garamond;
+    text-align: left;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    padding-top: .5em;
+}
+h1 img{
+    width: 1em;
+    padding-right: 0.25em;
+    vertical-align: text-top;
+}
+h2{
+    color: #30353a;
+    font-family: Georgia;
+}
+footer{
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid hsla(0, 7%, 3%, 0.123);
+    padding: 5px;
+    width: 100%;
+}
+.gallery img{
+    width: auto;
+    padding: 0 2em;
+    height: 465px;
+}
+#backgroundhero{
+    height: 1000px;
+    background-image: url("images/clothingbackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#menhero{
+    height: 1000px;
+    background-image: url("images/men/mensclothingsbackground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#womenhero{
+    height: 1000px;
+    background-image: url("images/women/womenclothingbackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#salehero{
+    height: 1000px;
+    background-image: url("images/sale/salebackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-left: 1em;
+    width: 80%;
+}
+nav form{
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    width: 80%;
+}
+nav form input[type="text"]{
+    font-size: 0.7em;
+}
+textarea, input {
+    margin-bottom: .5em;
+}
+.gallery a #sale{
+    font-size: 2em;
+    padding-left: 1em;
+    color: #ff0000;
+}
+table{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+
+    font-size: 1.3em;
+}
+td{
+    padding: 5px;
+
+    text-align: center;  
+}
+th{
+    padding: 5px;
+
+}

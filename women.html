@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="resellix.css">
+    <link rel="shortcut icon" type="x-icon" href="images/smalllogoicon.png">
+    <title>Resellix | Women</title>
+</head>
+
+<body>
+
+    <header>
+            <h1><img src="images/logo.png"alt="icon">Resellix</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</li></a>&nbsp;
+            <li><a href="Men.html">Men</li></a>&nbsp;
+            <li><a href="Women.html">Women</li></a>&nbsp;
+            <li><a href="Sale.html">Sale</li></a>
+            <li>
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <input type="submit" id="Submit" value="Submit">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <div id="womenhero"></div>
+    <div id="wrapper">
+    <main>
+        <form method="post">
+            <label for="MPrice">Max Price:</label>
+            <input type="text" onkeypress="return /[0-9]/i.test(event.key)" id="MPrice">
+            <label for="MinPrice">Min Price:</label>
+            <input type="text" onkeypress="return /[0-9]/i.test(event.key)" id="MinPrice">
+            <label for="size">Size:</label>
+            <input type="text" onkeypress="return /[0-9]/i.test(event.key)" id="size">
+            <label for="condition">Condition:</label>
+            <select id="condition">
+                <option value="blank"></option>
+                <option value="brand new">Brand New</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="used">Used</option>
+            </select>
+            <input type="Submit" value="Submit" id="Submit">
+        </form>
+        <div class="gallery">
+            <a target="_blank" href="images/women/pdotdress.jpg">
+                <img src="images/women/pdotdress.jpg" alt="Blue dress with white polka dots">
+            </a>
+            <a target="_blank" href="images/women/yellowdress.jpg">
+                <img src="images/women/yellowdress.jpg" alt="Yellow dress">
+            </a>
+            <a target="_blank" href="images/women/purpledress.jpg">
+                <img src="images/women/purpledress.jpg" alt="Purple dress">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <br>Copyright © 2024 Resellix
+        <br><a href="mailto:tcunni77@stu.jjc.edu">tcunni77@stu.jjc.edu</a></i></small>
+    </footer>
+</div>
+</body>
+</html>
